@@ -1,13 +1,7 @@
-# Luận văn đại học
-
 ## Đề tài
 
 #### Xây dựng ứng dụng quản lý và giao dịch bất động sản áp dụng công nghệ Blockchain (Dapps).
 
-## Nhóm sinh viên thực hiện:
-
-1. Trần Tấn Lộc - 16520679
-2. Nguyễn Duy Quốc - 16521007
 
 ## Smart contract
 
