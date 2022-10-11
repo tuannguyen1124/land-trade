@@ -1,0 +1,29 @@
+td input {
+  padding: 5px 10px;
+  color: red;
+}
+
+td input[type="text"] {
+  border: none;
+  border-bottom: 1px dashed;
+}
+
+td input[type="text"]:focus {
+  border: none;
+  border-bottom: 1px dashed;
+}
+
+td input[type="date"] {
+  border: none;
+  border-bottom: 1px dashed;
+}
+
+td input[type="date"]:focus {
+  border: none;
+  border-bottom: 1px dashed;
+}
+
+td {
+  padding: 5px 10px;
+  font-family: Arial, Tahoma, sans-serif;
+}

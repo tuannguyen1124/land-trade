@@ -1,0 +1,45 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/node": "^7.18.10",
+    "@material-ui/core": "^4.9.3",
+    "@material-ui/icons": "latest",
+    "@material-ui/lab": "^4.0.0-alpha.44",
+    "axios": "^0.18.0",
+    "js-base64": "^2.5.2",
+    "jwt-decode": "^2.2.0",
+    "material-table": "^1.57.2",
+    "prop-types": "15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-dropzone": "8.1.0",
+    "react-icons": "3.4.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "0.9.5",
+    "react-toastify": "^6.0.6",
+    "react-widgets": "^4.5.0",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.0",
+    "redux-form-material-ui": "^4.3.4",
+    "redux-saga": "^1.1.3",
+    "socket.io-client": "^2.3.0",
+    "web3": "1.2.2"
+  },
+  "devDependencies": {
+    "terser": "^3.14.1"
+  },
+  "scripts": {
+    "start": "set PORT=8081 && react-scripts start",
+    "app": "serve -s build -l 8081",
+    "build:prod": "set \"GENERATE_SOURCEMAP=false\" && npm run build",
+    "build": "react-scripts build",
+    "postbuild": "rimraf build/**/*.map",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

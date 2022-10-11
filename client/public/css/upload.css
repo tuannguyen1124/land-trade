@@ -1,0 +1,51 @@
+.image-container > img {
+  width: 320px;
+  height: 240px;
+}
+
+.clear {
+  clear: both;
+}
+
+.error {
+  margin-top: 4px;
+  color: red;
+}
+
+.has-error {
+  border: 1px dotted red;
+}
+
+.image-container {
+  align-items: center;
+  margin: 15px 10px 10px 37px;
+  text-align: center;
+}
+
+.preview-container {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.placeholder-preview {
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+.render-preview {
+  text-align: center;
+  display: inline-block;
+}
+
+.upload-container {
+  cursor: pointer;
+  height: 300px;
+}
+
+ol.carousel-indicators.list-gallery-thumb {
+  padding: 10px;
+}
+
+.list-details-tab .nav-item {
+  padding: 20px 0;
+}

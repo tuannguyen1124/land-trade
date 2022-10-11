@@ -1,0 +1,21 @@
+.ow-li-lv1 {
+  margin: 0 40px;
+  font-weight: bold;
+  font-style: italic;
+  padding-right: 10px;
+}
+
+.ow-li-lv2 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ow-li-lv2 span {
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+li p {
+  display: inline-block;
+  font-style: normal;
+}
