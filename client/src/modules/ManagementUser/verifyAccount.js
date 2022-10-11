@@ -3,14 +3,14 @@ import "./step.css";
 
 import Info from "./info";
 import Email from "./email";
-import CMND from './cmnd'
+import CMND from "./cmnd";
 
 export default class verifyAccount extends Component {
   constructor(props) {
     super(props);
     this.state = {
       currentStep: 0,
-      header: ["Cập nhập thông tin", "CMND", "Xác thực email" ],
+      header: ["Cập nhật thông tin", "CMND", "Xác thực email"],
     };
     this.renderForm = this.renderForm.bind(this);
   }

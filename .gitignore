@@ -6,6 +6,11 @@ node_modules
 # testing
 /coverage
 
+server/public
+
+client/src/contracts
+
+server/src/contracts
 # production
 build
 dist

@@ -56,7 +56,7 @@
   "sourceMap": "36:326:0:-;;;196:52;8:9:-1;5:2;;;30:1;27;20:12;5:2;196:52:0;232:10;224:5;;:18;;;;;;;;;;;;;;;;;;36:326;;;;;;",
   "deployedSourceMap": "36:326:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:326:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;86:36;;;:::i;:::-;;;;;;;;;;;;;;;;;;;61:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;254:105;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;254:105:0;;;;;;;;;;;;;;;;;:::i;:::-;;86:36;;;;:::o;61:20::-;;;;;;;;;;;;;:::o;254:105::-;176:5;;;;;;;;;;;162:19;;:10;:19;;;158:26;;;344:9;317:24;:36;;;;158:26;254:105;:::o",
   "source": "pragma solidity >=0.4.21 <0.7.0;\r\n\r\ncontract Migrations {\r\n  address public owner;\r\n  uint public last_completed_migration;\r\n\r\n  modifier restricted() {\r\n    if (msg.sender == owner) _;\r\n  }\r\n\r\n  constructor() public {\r\n    owner = msg.sender;\r\n  }\r\n\r\n  function setCompleted(uint completed) public restricted {\r\n    last_completed_migration = completed;\r\n  }\r\n}\r\n",
-  "sourcePath": "D:\\Blockchain\\New folder\\land-trade\\contracts\\Migrations.sol",
+  "sourcePath": "C:\\Users\\BAP\\Desktop\\land-trade\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -952,21 +952,21 @@
     "version": "0.5.3+commit.10d17f24.Emscripten.clang"
   },
   "networks": {
-    "2020": {
+    "5": {
       "events": {},
       "links": {},
-      "address": "0xDB571079aF66EDbB1a56d22809584d39C20001D9",
-      "transactionHash": "0x8bd1b48f2616efba7e870a8e521d914412574a0b7b2dd69a677d88eb620d1664"
+      "address": "0x1a5e13168041fD502D335f33680A1C658868DC5A",
+      "transactionHash": "0xff0b8e86854878ca0f3ebf5919cad9b94a07965938078a7227bb2961cc57154a"
     },
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x0b94Cb5bD052FAaE2693b030279F147374B388cb",
-      "transactionHash": "0x43727649dcccf06e120317a62ac01a7e9245694be6a4cc11e4f08e59bf031444"
+      "address": "0xAd21F1f9c14B6B9252435DC1C3715532838cE52D",
+      "transactionHash": "0x689d607b3e1e28077df45fdbd85f76cb82a11a43176d8fbc87da5c64d6ae1afd"
     }
   },
-  "schemaVersion": "3.4.8",
-  "updatedAt": "2022-08-23T08:01:40.925Z",
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-10-11T10:09:52.066Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

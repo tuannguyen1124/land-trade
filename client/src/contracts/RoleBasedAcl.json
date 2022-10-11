@@ -163,7 +163,7 @@
   "sourceMap": "166:3628:2:-;;;683:99;8:9:-1;5:2;;;30:1;27;20:12;5:2;683:99:2;738:4;715:5;:17;721:10;715:17;;;;;;;;;;;;;;;:20;733:1;715:20;;;;;;;;;;;;;;:27;;;;;;;;;;;;;;;;;;166:3628;;;;;;",
   "deployedSourceMap": "166:3628:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;166:3628:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;994:341;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;994:341:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;3165:626;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;3165:626:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;3165:626:2;;;;;;;;;;;;;;;;;;;467:53;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;467:53:2;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;2371:203;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;2371:203:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;432:28;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;432:28:2;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;1526:684;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1526:684:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;994:341;1078:1;2773:26;2781:10;2793:5;2773:7;:26::i;:::-;2765:65;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1100:8;2929:20;2937:8;2947:1;2929:7;:20::i;:::-;2928:21;:46;;;;;2954:20;2962:8;2972:1;2954:7;:20::i;:::-;2953:21;2928:46;2906:139;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1158:4;1126:5;:15;1132:8;1126:15;;;;;;;;;;;;;;;:29;1148:5;1142:12;;;;;;;;1126:29;;;;;;;;;;;;;;;;:36;;;;;;;;;;;;;;;;;;1173:10;1186:11;:18;;;;1173:31;;1246:2;1215:18;:28;1234:8;1215:28;;;;;;;;;;;;;;;:33;;;;1259:11;1276:8;1259:26;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;1259:26:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1311:8;1301:26;;;1321:5;1301:26;;;;;;;;;;;;;;;;;;;;;;;;;;;;3056:1;2841;994:341;;;:::o;3165:626::-;3247:16;3265:14;3297:23;3335:11;:18;;;;3323:31;;;;;;;;;;;;;;;;;;;;;;29:2:-1;21:6;17:15;117:4;105:10;97:6;88:34;148:4;140:6;136:17;126:27;;0:157;3323:31:2;;;;3297:57;;3365:19;3393:16;3387:23;;;;;;;;3365:45;;;;3426:7;3436:1;3426:11;;3421:322;3443:11;:18;;;;3439:1;:22;;;3421:322;;;3488:7;3498:1;3488:11;;3483:249;3505:11;3501:1;:15;;;3483:249;;;3605:5;:21;3611:11;3623:1;3611:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3605:21;;;;;;;;;;;;;;;:24;3627:1;3605:24;;;;;;;;;;;;;;;;;;;;;;;;;3601:116;;;3668:1;3654:8;3663:1;3654:11;;;;;;;;;;;;;;;;;;;:15;;;;;;;;;;;3692:5;;3601:116;3518:3;;;;;;;3483:249;;;;3463:3;;;;;;;3421:322;;;;3761:11;3774:8;3753:30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;3165:626;;:::o;467:53::-;;;;;;;;;;;;;;;;;:::o;2371:203::-;2440:4;2485:1;2465:22;;:8;:22;;;;2457:69;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2544:5;:15;2550:8;2544:15;;;;;;;;;;;;;;;:22;2560:5;2544:22;;;;;;;;;;;;;;;;;;;;;;;;;2537:29;;2371:203;;;;:::o;432:28::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;1526:684::-;1595:1;2773:26;2781:10;2793:5;2773:7;:26::i;:::-;2765:65;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1643:10;1631:22;;:8;:22;;;;1609:118;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1760:31;1768:8;1784:5;1778:12;;;;;;;;1760:7;:31::i;:::-;1738:113;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1894:5;1862;:15;1868:8;1862:15;;;;;;;;;;;;;;;:29;1884:5;1878:12;;;;;;;;1862:29;;;;;;;;;;;;;;;;:37;;;;;;;;;;;;;;;;;;1910:10;1923:18;:28;1942:8;1923:28;;;;;;;;;;;;;;;;1910:41;;1967:9;1979:2;1967:14;;1962:169;2008:1;1987:11;:18;;;;:22;1983:1;:26;1962:169;;;2048:11;2064:1;2060;:5;2048:18;;;;;;;;;;;;;;;;;;;;;;;;;;;2031:11;2043:1;2031:14;;;;;;;;;;;;;;;;;;:35;;;;;;;;;;;;;;;;;;2118:1;2081:18;:34;2100:11;2112:1;2100:14;;;;;;;;;;;;;;;;;;;;;;;;;;;2081:34;;;;;;;;;;;;;;;:38;;;;2011:3;;;;;;;1962:169;;;;2141:11;:17;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;2186:8;2174:28;;;2196:5;2174:28;;;;;;;;;;;;;;;;;;;;;;;;;;;;2841:1;1526:684;;;:::o",
   "source": "pragma solidity >=0.4.21 <0.7.0;\r\n\r\n\r\n/**\r\n * @title RoleBasedAcl (Roles-based access control)\r\n * @dev Contract managing addressed role based access control\r\n */\r\n\r\ncontract RoleBasedAcl {\r\n    enum Roles {SUPER_ADMIN, NOTARY, LAST_INDEX} //SUPER_ADMIN: 0, NOTARY: 1, LAST: number value of enum\r\n    mapping(address => mapping(uint8 => bool)) roles; //address => Role(uint8) => bool\r\n    // For read all user role in contract\r\n    address[] public userAddress;\r\n    mapping(address => uint256) public userAddressIndexes;\r\n    // event add and remove role\r\n    event RoleAdded(address indexed account, Roles role);\r\n    event RoleRemoved(address indexed account, Roles role);\r\n\r\n    constructor() public {\r\n        roles[msg.sender][0] = true; // set deployer is 'superadmin'\r\n    }\r\n\r\n    /**\r\n     * @notice Assign a role to address\r\n     * @dev require msg.sender is superadmin && account is empty role\r\n     * @param _account address\r\n     * @param _role the name of the role\r\n     */\r\n    function addRole(address _account, Roles _role)\r\n        external\r\n        onlyRole(0)\r\n        emptyRole(_account)\r\n    {\r\n        roles[_account][uint8(_role)] = true;\r\n        uint256 id = userAddress.length;\r\n        userAddressIndexes[_account] = id;\r\n        userAddress.push(_account);\r\n        emit RoleAdded(_account, _role);\r\n    }\r\n\r\n    /**\r\n     * @notice remove a role from an address\r\n     * @dev require msg.sender = superadmin\r\n     * @param _account address\r\n     * @param _role the name of the role\r\n     */\r\n    function removeRole(address _account, Roles _role) external onlyRole(0) {\r\n        require(\r\n            _account != msg.sender,\r\n            \"Roles: Unable to remove superadmin role itself\"\r\n        );\r\n        require(\r\n            hasRole(_account, uint8(_role)),\r\n            \"Roles: Account doesn't have role\"\r\n        );\r\n        roles[_account][uint8(_role)] = false;\r\n        uint256 id = userAddressIndexes[_account];\r\n        for (uint256 i = id; i < userAddress.length - 1; i++) {\r\n            userAddress[i] = userAddress[i + 1];\r\n            userAddressIndexes[userAddress[i]] = i;\r\n        }\r\n        userAddress.pop();\r\n        emit RoleRemoved(_account, _role);\r\n    }\r\n\r\n    /**\r\n     * @dev determine if addr has role\r\n     * @param _account address\r\n     * @param _role the name of the role\r\n     * @return bool\r\n     */\r\n    function hasRole(address _account, uint8 _role) public view returns (bool) {\r\n        require(_account != address(0), \"Roles: account is the zero address\");\r\n        return roles[_account][_role];\r\n    }\r\n\r\n    /**\r\n     * @dev modifier to scope access to a single role (uses msg.sender as addr)\r\n     * @param _role the name of the role\r\n     */\r\n    modifier onlyRole(uint8 _role) {\r\n        require(hasRole(msg.sender, _role), \"Roles: Account not allowed\");\r\n        _;\r\n    }\r\n\r\n    modifier emptyRole(address _address) {\r\n        require(\r\n            !hasRole(_address, 0) && !hasRole(_address, 1),\r\n            \"Roles: An account should have only one role\"\r\n        );\r\n        _;\r\n    }\r\n\r\n    /**\r\n     * @notice Get list user and role\r\n     * @return address[], uint8[]\r\n     */\r\n    function getAllAddressAndRole()\r\n        external\r\n        view\r\n        returns (address[] memory, uint8[] memory)\r\n    {\r\n        uint8[] memory listRole = new uint8[](userAddress.length);\r\n        uint256 amountRoles = uint8(Roles.LAST_INDEX);\r\n        for (uint8 i = 0; i < userAddress.length; i++) {\r\n            for (uint8 j = 0; j < amountRoles; j++) {\r\n                // number roles 2 = {SUPER_ADMIN, NOTARY}\r\n                if (roles[userAddress[i]][j]) {\r\n                    listRole[i] = j;\r\n                    break;\r\n                }\r\n            }\r\n        }\r\n        return (userAddress, listRole);\r\n    }\r\n}\r\n",
-  "sourcePath": "D:\\Blockchain\\New folder\\land-trade\\contracts\\RoleBasedAcl.sol",
+  "sourcePath": "C:\\Users\\BAP\\Desktop\\land-trade\\contracts\\RoleBasedAcl.sol",
   "ast": {
     "absolutePath": "project:/contracts/RoleBasedAcl.sol",
     "exportedSymbols": {
@@ -8537,91 +8537,21 @@
     "version": "0.5.3+commit.10d17f24.Emscripten.clang"
   },
   "networks": {
-    "2020": {
-      "events": {
-        "0x0ed8a6a6a166243876472f7a8610b62c1a76c67911642d39ff34ead38105534f": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "account",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "role",
-              "type": "uint8"
-            }
-          ],
-          "name": "RoleAdded",
-          "type": "event"
-        },
-        "0x3824b64a1e23d936b458f4e31445c664d2bc9c14e842407917cbc100b0236a2f": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "account",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "role",
-              "type": "uint8"
-            }
-          ],
-          "name": "RoleRemoved",
-          "type": "event"
-        }
-      },
+    "5": {
+      "events": {},
       "links": {},
-      "address": "0xa7B3058152165c72a4dD7C4812c5964f1c26F00D",
-      "transactionHash": "0x4ce6378b49346b1dac6b14b5b9c4fbfdf76f53ec39e66a48797cacb0e3e17198"
+      "address": "0xCae78362F08Ab65B652682e0eFf9a55F8B47f2d1",
+      "transactionHash": "0xeb982d9c6b4034e5dd97d069ca18a59b8dfb7d1e4ed53d0a900530421805ce12"
     },
     "5777": {
-      "events": {
-        "0x0ed8a6a6a166243876472f7a8610b62c1a76c67911642d39ff34ead38105534f": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "account",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "role",
-              "type": "uint8"
-            }
-          ],
-          "name": "RoleAdded",
-          "type": "event"
-        },
-        "0x3824b64a1e23d936b458f4e31445c664d2bc9c14e842407917cbc100b0236a2f": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "account",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "role",
-              "type": "uint8"
-            }
-          ],
-          "name": "RoleRemoved",
-          "type": "event"
-        }
-      },
+      "events": {},
       "links": {},
-      "address": "0x257846048423772ece5f15ef228b6f20F4CE5e28",
-      "transactionHash": "0x9967c68793992c025148ed07c4f7a673a704dbef5ab1a6d9149ede3506256064"
+      "address": "0xCE213D7351cc28FfF718458E9E08aafB7e1892C5",
+      "transactionHash": "0x3c3dacc51f4e1140a8349d5fc9246cefcbc0f748800b672c5b04796c33dcfdae"
     }
   },
-  "schemaVersion": "3.4.8",
-  "updatedAt": "2022-08-23T08:01:40.861Z",
+  "schemaVersion": "3.4.10",
+  "updatedAt": "2022-10-11T10:09:51.949Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Contract managing addressed role based access control\r",

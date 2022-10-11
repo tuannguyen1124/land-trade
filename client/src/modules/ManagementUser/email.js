@@ -136,7 +136,7 @@ class Info extends Component {
                         className="btn v3"
                         onClick={(e) => this.handleUpdate(e)}
                       >
-                        Cập nhập
+                        Cập nhật
                       </button>
                     </div>
                   </div>

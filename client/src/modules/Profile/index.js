@@ -31,36 +31,36 @@ class Profile extends Component {
                       <ul className="address-list">
                         <li>
                           <span>Họ tên:</span>
-                          {user.fullName || "Vui lòng cập nhập thông tin"}
+                          {user.fullName || "Vui lòng Cập nhật thông tin"}
                         </li>
                         <li>
                           <span>Public Address:</span>
-                          {user.publicAddress || "Vui lòng cập nhập thông tin"}
+                          {user.publicAddress || "Vui lòng Cập nhật thông tin"}
                         </li>
                         <li>
                           <span>CMND/Căn cước:</span>
-                          {user.idNumber || "Vui lòng cập nhập thông tin"}
+                          {user.idNumber || "Vui lòng Cập nhật thông tin"}
                         </li>
                         <li>
                           <span>Ngày sinh:</span>
-                          {user.birthday || "Vui lòng cập nhập thông tin"}
+                          {user.birthday || "Vui lòng Cập nhật thông tin"}
                         </li>
                         <li>
                           <span>Nguyên quán:</span>
-                          {user.homeLand || "Vui lòng cập nhập thông tin"}
+                          {user.homeLand || "Vui lòng Cập nhật thông tin"}
                         </li>
                         <li>
                           <span>Nơi ĐKHK thường trú:</span>
                           {user.permanentResidence ||
-                            "Vui lòng cập nhập thông tin"}
+                            "Vui lòng Cập nhật thông tin"}
                         </li>
                         <li>
                           <span>Số điện thoại:</span>
-                          {user.phoneNumber || "Vui lòng cập nhập thông tin"}
+                          {user.phoneNumber || "Vui lòng Cập nhật thông tin"}
                         </li>
                         <li>
                           <span>Email:</span>
-                          {user.email || "Vui lòng cập nhập thông tin"}
+                          {user.email || "Vui lòng Cập nhật thông tin"}
                         </li>
                       </ul>
                       <ul className="social-buttons style1">
@@ -91,7 +91,7 @@ class Profile extends Component {
                         </li>
                       </ul>
                       <Link to="/user/profile/edit" className="btn v3 mt-50">
-                        Cập nhập thông tin cá nhân
+                        Cập nhật thông tin cá nhân
                       </Link>
                     </div>
                   </div>

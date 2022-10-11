@@ -185,7 +185,7 @@ class Info extends Component {
                     </div> */}
 
                     <div className="col-md-12">
-                      <button className="btn v3">Cập nhập</button>
+                      <button className="btn v3">Cập nhật</button>
                     </div>
                   </div>
                 </form>

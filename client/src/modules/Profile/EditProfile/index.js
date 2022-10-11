@@ -24,7 +24,7 @@ class EditProfile extends Component {
         this.props.history.goBack();
         localStorage.setItem("user", JSON.stringify(response.data.data));
       })
-      .catch((err) => alert("Cập nhập thất bại"));
+      .catch((err) => alert("Cập nhật thất bại"));
   }
   componentDidMount() {
     const user = this.props.user;
@@ -220,7 +220,7 @@ class EditProfile extends Component {
                           </div>
                         </div>
                         <div className="col-md-12">
-                          <button className="btn v3">Cập nhập</button>
+                          <button className="btn v3">Cập nhật</button>
                         </div>
                       </div>
                     </form>

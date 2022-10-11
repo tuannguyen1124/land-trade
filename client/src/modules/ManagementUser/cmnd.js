@@ -28,9 +28,9 @@ export class CMND extends Component {
     let user = response.data.data;
     let imgResBlob = await Promise.all(
       user.imageIdNumber.map((item) =>
-        fetch(
-          `${process.env.REACT_APP_BASE_URL_IMAGE}/CMND/${item}`
-        ).then((response) => response.blob())
+        fetch(`${process.env.REACT_APP_BASE_URL_IMAGE}/CMND/${item}`).then(
+          (response) => response.blob()
+        )
       )
     );
 
@@ -171,7 +171,7 @@ export class CMND extends Component {
                     <div className="row">
                       <div className="col-md-12 sm-left">
                         <button className="btn v3" type="submit">
-                          Cập nhập
+                          Cập nhật
                         </button>
                       </div>
                     </div>
