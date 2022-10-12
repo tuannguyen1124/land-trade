@@ -42,7 +42,9 @@ class Role extends Component {
       // const accounts = await web3.eth.getAccounts();
       // Get the contract instance.
       const networkId = await web3.eth.net.getId();
+      console.log(networkId);
       const deployedNetwork = RoleBasedAclContract.networks[networkId];
+      console.log(deployedNetwork);
       if (!deployedNetwork) {
         alert(
           `Sai mạng blockchain.\nVui lòng chuyển sang mạng ${process.env.REACT_APP_WEB3_PROVIDER}`

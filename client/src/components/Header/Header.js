@@ -192,7 +192,7 @@ class Menu extends Component {
       // only check user logged
       const networkId = await this.props.web3.eth.net.getId();
       networkId != process.env.REACT_APP_NETWORK_ID &&
-        this.setState({ isWrongNetwork: true });
+        this.setState({ isWrongNetwork: false });      // fix true to false
     }
   };
 

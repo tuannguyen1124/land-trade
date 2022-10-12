@@ -1,5 +1,5 @@
 module.exports = {
-  roleContractAddress: "0xCae78362F08Ab65B652682e0eFf9a55F8B47f2d1",
-  realEstateContractAddress: "0xd3203DDb48F8824f51e5e2764f55D1C1774e9932",
-  transactionContractAddress: "0x5fC13822948d4930C3792Dd8Df09b53B59E42A19",
+  roleContractAddress: "0x0b2d692A78fDe905E2C7F1cF3539AA7e78e7DB3e",
+  realEstateContractAddress: "0xDBC63fF1cA1953DeFdF4117ea6Bc487496153dd7",
+  transactionContractAddress: "0x571A8375530A8501e9E1157F066Cc79a0fC6F57c",
 };
