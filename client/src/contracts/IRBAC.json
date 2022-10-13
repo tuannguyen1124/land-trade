@@ -13111,7 +13111,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-10-12T10:05:25.151Z",
+  "updatedAt": "2022-10-13T06:46:13.919Z",
   "devdoc": {
     "methods": {
       "hasRole(address,uint8)": {

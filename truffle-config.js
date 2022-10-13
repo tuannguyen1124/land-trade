@@ -1,7 +1,8 @@
 const path = require("path");
+require('dotenv').config();
 const HDWalletProvider = require('truffle-hdwallet-provider');
 
-const mnemonic = "taxi favorite pulp scrap intact country artwork track tumble badge where diamond";
+const mnemonic = process.env.MNEMONIC;
 module.exports = {
   // See <http://truffleframework.com/docs/advanced/configuration>
   // to customize your Truffle configuration!
@@ -40,4 +41,10 @@ module.exports = {
        gasPrice: 20000000000,   
       },
   },
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    etherscan: process.env.ETHERSCAN_API_KEY
+  }
 };
