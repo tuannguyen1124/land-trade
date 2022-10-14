@@ -4,7 +4,8 @@ import { transactionListener } from "./transactionListener/TransactionListener";
 
 // initialize event listener on smart contract
 export function initializeListeners() {
+
   realEstateListener();
-  roleBasedListener();
+   roleBasedListener();
   transactionListener();
 }

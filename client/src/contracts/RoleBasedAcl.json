@@ -8534,12 +8534,18 @@
     "5": {
       "events": {},
       "links": {},
-      "address": "0x73107665a77C7567Fb2f58f062A6D456738Ae203",
-      "transactionHash": "0x6b47446321422a9fc8457b2f702fe2e6bef754993b4e3ea13a13b0af59cc0ddb"
+      "address": "0xF2e8b9A444241d7bb2bDE934bee53b34184f2Df2",
+      "transactionHash": "0xf7dbb2a197786e05e7ab4d64c240af5d52df5ba3f22b9c319c4222d29cffe1e3"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x5975f4ae70950d1f90BC89D9bA0C813e5C36bB44",
+      "transactionHash": "0x9e06647e49a633512c456a55078dead6581f3a2895701fd74bb132c70e5af0aa"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-10-13T06:51:28.280Z",
+  "updatedAt": "2022-10-14T09:02:49.940Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Contract managing addressed role based access control\r",

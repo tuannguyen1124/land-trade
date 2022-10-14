@@ -82,3 +82,4 @@ Problem:
 1. Khi deploy chưa add role admin cho ví deploy được mà phải add role trực tiếp vào database
 2. Replace contract address còn phải làm bằng tay, chưa deploy tự động được
 3. Vấn đề sai mạng blockchain
+4. Viết hàm rút phí giao dịch cho admin trong smart contract Transaction.sol

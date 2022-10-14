@@ -7,7 +7,11 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "goerli:deploy": "truffle migrate --reset --network goerli",
+    "goerli:verify" : "truffle run verify RoleBasedAcl RealEstate Transaction --network goerli"
+
+
   },
   "author": "",
   "license": "ISC",

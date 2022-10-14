@@ -9,6 +9,10 @@ const instanceContract = new web3.eth.Contract(
   roleContractAddress
 );
 
+
+
+
+
 // listen all event emited from RealEstate contract
 export function roleBasedListener() {
   instanceContract.events
@@ -19,6 +23,9 @@ export function roleBasedListener() {
     })
     .on("error", console.error);
 }
+
+
+
 
 async function handleEvent(event) {
   console.log(event);

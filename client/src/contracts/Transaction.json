@@ -33936,12 +33936,18 @@
     "5": {
       "events": {},
       "links": {},
-      "address": "0xec7eBcf369fE131eD7088A066345d14d7199173e",
-      "transactionHash": "0x40a470d502c36a44258a0201399fdf0f00fb9ac9a02ba4a9c79bd366b2f173a2"
+      "address": "0x8EcB95a24EbEfEA01e18C073642233cBf47FFe4D",
+      "transactionHash": "0xbb41a2a755983971ac864a1818a408a99ce478bb101fb2918388690e649b42df"
+    },
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xcc6bd04542839471aDfE3eE5e63C4ffb01A7F065",
+      "transactionHash": "0x8634efbb8674105438385956c301887a8603fb9606ced28b602ce8093f6a1f63"
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-10-13T06:51:28.322Z",
+  "updatedAt": "2022-10-14T09:02:49.971Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Contract manager transaction of real estate\r",
