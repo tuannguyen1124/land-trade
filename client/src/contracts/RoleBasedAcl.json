@@ -8534,8 +8534,8 @@
     "5": {
       "events": {},
       "links": {},
-      "address": "0xF2e8b9A444241d7bb2bDE934bee53b34184f2Df2",
-      "transactionHash": "0xf7dbb2a197786e05e7ab4d64c240af5d52df5ba3f22b9c319c4222d29cffe1e3"
+      "address": "0x2d8DAbDE02fE8c21CaA10AF77e04FCb9D05d128c",
+      "transactionHash": "0x510abb12354c6dcdae26ce64e84c3a9c07f385bedf86becb317cfd2a1b0a44a1"
     },
     "5777": {
       "events": {},
@@ -8545,7 +8545,7 @@
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-10-14T09:02:49.940Z",
+  "updatedAt": "2022-10-17T07:39:39.257Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Contract managing addressed role based access control\r",

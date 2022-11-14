@@ -13444,8 +13444,8 @@
     "5": {
       "events": {},
       "links": {},
-      "address": "0xEe52e15FB77Bb612fB10D59681D0e7713F346cB8",
-      "transactionHash": "0x7485c1f26349b2823094e3ab89749edb005136b076455f8788bfba0e5b50bb65"
+      "address": "0xa30d5B2F86A7F4A7e660Cc326bd41600348AC158",
+      "transactionHash": "0xb58029c523fa1baca9713bf69576a2423845f85fa2d8f9c9c5d414907acf78e3"
     },
     "5777": {
       "events": {},
@@ -13455,7 +13455,7 @@
     }
   },
   "schemaVersion": "3.4.10",
-  "updatedAt": "2022-10-14T09:02:49.951Z",
+  "updatedAt": "2022-10-17T07:39:39.272Z",
   "networkType": "ethereum",
   "devdoc": {
     "details": "Real estate management and transaction\r",

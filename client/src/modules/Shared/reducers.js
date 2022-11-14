@@ -8,12 +8,14 @@ import {
   FETCH_USER_PROFILE_FAILURE,
 } from "./constants";
 
+
+
 const initialState = {
   roleBasedAcl: "",
   realEstate: "",
   transaction: "",
   web3: "",
-  ethToVndPrice: 5000000000, //suppose: 1ETH => 5000000VND
+  ethToVndPrice: 5000000, //suppose: 1ETH => 5000000VND
   accountBalance: 0,
   error: "",
 };

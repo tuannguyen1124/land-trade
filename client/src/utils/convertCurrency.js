@@ -1,4 +1,4 @@
-const vndToEth = 1 / 5000000000; //suppose: 1ETH => 5000000VND
+const vndToEth = 1 / 5000000; //suppose: 1ETH => 5000000VND
 const ethToWei = 1 / 1000000000000000000;
 
 export function convertVNDtoETH(str = "") {

@@ -25,7 +25,7 @@ initializeListeners();
 apiRoutes(app);
 
 app.get("/api", (_req, res) => {
-  res.send("Wellcome to Landtrade APIs");
+  res.send("Welcome to Landtrade APIs");
 });
 
 /** handle error */
