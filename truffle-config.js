@@ -13,14 +13,7 @@ module.exports = {
     },
   },
   networks: {
-    production: {
-      host: "167.179.75.85",
-      port: 8545,
-      network_id: 2020,
-      from: "0x007ccffb7916f37f7aeef05e8096ecfbe55afc2f",
-      gasPrice: 0,
-      gas: 6721975,
-    },
+  
     ganache: {
       host: "127.0.0.1",
       port: 7545,
